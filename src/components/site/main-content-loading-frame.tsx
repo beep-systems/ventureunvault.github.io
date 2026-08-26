@@ -17,7 +17,7 @@ export async function MainContentLoadingFrame({ currentPath, children, locale, m
   const channel = snapshot.root as ChannelInfo
 
   return (
-    <PageFrame channel={channel} currentPath={currentPath} locale={locale} messages={messages} currentLocalePath={currentPath}>
+    <PageFrame channel={channel} currentPath={currentPath} locale={locale} messages={messages}>
       {children}
     </PageFrame>
   )

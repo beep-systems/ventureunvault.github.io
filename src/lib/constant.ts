@@ -104,7 +104,6 @@ export const SITE_CONSTANTS: SiteConstantConfig = {
     keywords: [
       'startups',
       'startup projects',
-      'anda toshiki',
       'VentureUnvault',
       'VentureVault',
       'Hacker News / Show HN',

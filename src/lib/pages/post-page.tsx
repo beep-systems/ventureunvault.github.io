@@ -109,7 +109,6 @@ export async function renderPostPage(locale: AppLocale, id: string) {
       currentPath="/"
       locale={locale}
       messages={messages}
-      currentLocalePath={`/posts/${id}`}
       showBack
     >
       <JsonLd data={blogPostingJsonLd} />

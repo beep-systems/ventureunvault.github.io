@@ -41,7 +41,7 @@ export async function renderTagsPage(locale: AppLocale) {
   }
 
   return (
-    <PageFrame channel={channel} currentPath="/tags" locale={locale} messages={messages} currentLocalePath="/tags">
+    <PageFrame channel={channel} currentPath="/tags" locale={locale} messages={messages}>
       <div className="px-4 py-6">
         <TagWordCloud entries={cloudEntries} locale={locale} />
       </div>

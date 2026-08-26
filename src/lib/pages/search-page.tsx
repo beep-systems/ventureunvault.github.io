@@ -24,7 +24,6 @@ export async function renderSearchPage(locale: AppLocale, searchParams: SearchPa
       currentPath="/search"
       locale={locale}
       messages={messages}
-      currentLocalePath={currentLocalePath}
       showBack
     >
       <SearchResultsPanel locale={locale} messages={messages} />

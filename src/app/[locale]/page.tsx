@@ -28,7 +28,7 @@ export default async function HomePage({ params }: HomePageProps) {
   const channelUsername = config.telegram || config.channel
 
   return (
-    <PageFrame channel={channel} currentPath="/" locale={locale} messages={messages} currentLocalePath="/" pageNumber={1}>
+    <PageFrame channel={channel} currentPath="/" locale={locale} messages={messages} pageNumber={1}>
       <FeedList
         posts={channel.posts}
         locale={locale}

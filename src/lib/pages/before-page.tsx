@@ -34,7 +34,6 @@ export async function renderBeforePage(locale: AppLocale, cursor: string) {
       currentPath="/"
       locale={locale}
       messages={messages}
-      currentLocalePath={`/before/${cursor}`}
       pageNumber={pageIndex + 1}
     >
       <FeedList
