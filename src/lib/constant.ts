@@ -52,15 +52,15 @@ interface SiteConstantConfig {
 
 export const SITE_CONSTANTS: SiteConstantConfig = {
   // Telegram channel username (without @) to mirror content from.
-  channel: 'toshikidev',
+  channel: 'ventureunvault',
   // Default locale for the site (e.g. en, ja, zh).
   locale: 'en',
   // Timezone for date formatting (e.g. UTC, America/New_York).
   timezone: 'UTC',
   // Canonical base URL of the published site.
-  siteUrl: 'https://tg.toshiki.dev',
+  siteUrl: 'https://ventureunvault.beep.systems',
   // Telegram host used for channel fetches and public links (e.g. t.me).
-  telegramHost: 'telegram.me',
+  telegramHost: 't.me',
   // Proxy base URL for Telegram-origin media. Leave empty unless you need a runtime proxy.
   staticProxy: '',
   cloudFlare: {
@@ -76,45 +76,46 @@ export const SITE_CONSTANTS: SiteConstantConfig = {
   // Whether to enable Progressive Web App (PWA) support (service worker, manifest, offline caching).
   pwa: true,
   // Main website URL for the author/org.
-  website: 'https://toshiki.dev',
+  website: 'https://ventureunvault.beep.systems',
   // Twitter/X username only (no URL prefix).
-  twitter: 'andatoshiki',
+  twitter: '',
   // GitHub username only (no URL prefix).
-  github: 'andatoshiki',
+  github: 'beep-systems',
   // Telegram username only (no URL prefix).
-  telegram: 'toshikidev',
+  telegram: 'ventureunvault',
   // Mastodon profile host/path without protocol (e.g. mastodon.social/@username).
-  mastodon: 'mastodon.social/@andatoshiki',
+  mastodon: '',
   // Bluesky handle (e.g. username.bsky.social).
-  bluesky: 'andatoshiki.bsky.social',
+  bluesky: '',
   // Optional inline markdown shown above main content (e.g. **alert**, [link](https://...)).
-  customBanner: '**This project is open source under AGPL-3.0.** [Get Telecast on GitHub](https://github.com/andatoshiki/telecast) and launch your own instance in minutes with minimal configuration!',
+  customBanner: '',
   // Optional inline markdown to replace the default footer.
   customFooter: '',
   // Whether to beautify RSS output with XSLT styling.
   rssBeautify: true,
   seo: {
     // Site title shown in browser tab and search results.
-    title: 'Telecast – Anda Toshiki',
+    title: 'VentureUnvault',
     // Meta description for search engines and social previews.
-    description: 'Tech notes, development logs, and microblog posts by Anda Toshiki via Telegram!',
+    description: 'Never miss a startup you probably didn’t need to know about.',
     // Open Graph image path for social sharing (e.g. /og-auto.png).
     ogImage: '/og-auto.png',
     // SEO keywords for meta tags.
     keywords: [
-      'telecast',
-      'toshikidev',
+      'startups',
+      'startup projects',
       'anda toshiki',
-      'telegram channel',
-      'microblog',
-      'developer blog',
-      'tech updates',
-      'programming',
-      'open source',
-      'web development',
+      'VentureUnvault',
+      'VentureVault',
+      'Hacker News / Show HN',
+      'BetaList',
+      'MicroLaunch',
+      'Product Hunt',
+      'Peerlist',
+      'indie',
     ],
     // Author name for meta tags and attribution.
-    author: 'Anda Toshiki',
+    author: 'VentureUnvault',
     // Whether to emit robots noindex for the site.
     noIndex: false,
     // Whether to emit robots nofollow for the site.
@@ -124,9 +125,9 @@ export const SITE_CONSTANTS: SiteConstantConfig = {
     // Google Analytics 4 measurement ID (e.g. G-XXXXXXXXXX). Leave empty to disable.
     googleAnalyticsId: '',
     // Umami analytics script URL. Leave empty to disable.
-    umamiScriptUrl: 'https://umami.toshiki.dev/script.js',
+    umamiScriptUrl: '',
     // Umami website ID for this site.
-    umamiWebsiteId: '2aeae228-582d-45ae-8d43-5f6dbf673339',
+    umamiWebsiteId: '',
   },
   // Maximum Telegram snapshot pages to fetch during static sync.
   maxPages: 50,
