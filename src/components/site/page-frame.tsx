@@ -2,21 +2,13 @@ import type { ReactNode } from 'react'
 import type { AppLocale } from '@/lib/i18n'
 import type { ChannelInfo } from '@/lib/types'
 import type { LocaleMessages } from '@/locales/en'
-import { Github, House, Languages, Rss, Send, Tag } from 'lucide-react'
+import { House, Rss, Send, Tag } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuItemCheck,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'
 import { buildStaticProxyUrl, getAppConfig } from '@/lib/config'
-import { getLocaleMessages, localizePath, normalizeAppLocale, SUPPORTED_LOCALES } from '@/lib/i18n'
+import { getLocaleMessages, localizePath, normalizeAppLocale } from '@/lib/i18n'
 import { renderInlineMarkdown } from '@/lib/sanitize'
 import { cn } from '@/lib/utils'
-import packageJson from '../../../package.json'
 import { CommandPalette } from './command-palette'
 import { ContentAlbum } from './content-album'
 import { ContentCodeCopy } from './content-code-copy'
@@ -33,7 +25,6 @@ interface PageFrameProps {
   children: ReactNode
   locale?: AppLocale
   messages?: LocaleMessages
-  currentLocalePath?: string
   pageNumber?: number
   showBack?: boolean
 }
@@ -79,16 +70,12 @@ export function PageFrame({
   children,
   locale,
   messages,
-  currentLocalePath,
   pageNumber,
   showBack,
 }: PageFrameProps) {
   const config = getAppConfig()
   const resolvedLocale = locale || normalizeAppLocale(config.locale)
   const resolvedMessages = messages || getLocaleMessages(resolvedLocale)
-  const activePathForLocaleSwitch = currentLocalePath || currentPath
-  const githubRepoHref = 'https://github.com/andatoshiki/telecast'
-  const githubRepoTitle = `${resolvedMessages.external.github} telecast`
 
   const avatar = channel.avatar?.startsWith('http')
     ? buildStaticProxyUrl(config.staticProxy, channel.avatar)
@@ -102,7 +89,6 @@ export function PageFrame({
   const enabledNavItems = navItems.filter(item => item.enabled)
   const internalCommandItems = [
     { title: resolvedMessages.external.rss, href: '/rss.xml' },
-    { title: githubRepoTitle, href: githubRepoHref },
     telegramChannelHref
       ? { title: `${resolvedMessages.external.telegram} ${(config.telegram || config.channel).trim()}`.trim(), href: telegramChannelHref }
       : null,
@@ -121,11 +107,7 @@ export function PageFrame({
       ? { title: `${resolvedMessages.external.bluesky} @${config.bluesky}`, href: `https://bsky.app/profile/${config.bluesky}` }
       : null,
   ].filter((item): item is { title: string, href: string } => Boolean(item))
-  const localeMenuLabels: Record<AppLocale, string> = {
-    en: 'English',
-    ja: '日本语',
-    zh: '中文',
-  }
+
   const sidebarIconButtonClass = 'h-11 w-11 sm:h-12 sm:w-12 p-0 shrink-0 rounded-full bg-transparent text-muted-foreground transition-colors duration-200 hover:bg-muted/70 hover:text-foreground focus-visible:bg-muted/70 data-[state=open]:bg-muted/70 data-[state=open]:text-foreground data-[state=open]:[&_svg]:fill-current'
   const sidebarIconGlyphClass = 'h-[22px] w-[22px] sm:h-6 sm:w-6 stroke-current stroke-[1.9] transition-[fill] duration-200'
   const sidebarIconActiveClass = 'bg-muted/70 text-foreground'
@@ -218,26 +200,6 @@ export function PageFrame({
                 </TooltipTrigger>
                 <TooltipContent side="right">{resolvedMessages.external.rss}</TooltipContent>
               </Tooltip>
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <Button
-                    asChild
-                    variant="ghost"
-                    className={sidebarIconButtonClass}
-                  >
-                    <a
-                      href={githubRepoHref}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={githubRepoTitle}
-                    >
-                      <Github className={cn(sidebarIconGlyphClass, 'fill-none')} />
-                      <span className="sr-only">{githubRepoTitle}</span>
-                    </a>
-                  </Button>
-                </TooltipTrigger>
-                <TooltipContent side="right">{githubRepoTitle}</TooltipContent>
-              </Tooltip>
               {telegramChannelHref
                 ? (
                     <Tooltip>
@@ -282,36 +244,6 @@ export function PageFrame({
                     <kbd className="rounded border border-primary-foreground/25 bg-primary-foreground/10 px-1 py-0.5 font-mono text-[10px] leading-none">⌘ K</kbd>
                   </span>
                 </TooltipContent>
-              </Tooltip>
-              <Tooltip>
-                <DropdownMenu>
-                  <TooltipTrigger asChild>
-                    <DropdownMenuTrigger asChild>
-                      <Button
-                        variant="ghost"
-                        className={sidebarIconButtonClass}
-                        aria-label={resolvedMessages.sidebar.language}
-                      >
-                        <Languages className={cn(sidebarIconGlyphClass, 'fill-none')} />
-                        <span className="sr-only">{resolvedMessages.sidebar.language}</span>
-                      </Button>
-                    </DropdownMenuTrigger>
-                  </TooltipTrigger>
-                  <DropdownMenuContent side="right" align="start" className="w-44">
-                    {SUPPORTED_LOCALES.map(targetLocale => (
-                      <DropdownMenuItem key={`locale-switch-${targetLocale}`} asChild>
-                        <a
-                          href={localizePath(targetLocale, activePathForLocaleSwitch)}
-                          className="flex w-full items-center gap-2"
-                        >
-                          <span>{localeMenuLabels[targetLocale]}</span>
-                          <DropdownMenuItemCheck visible={targetLocale === resolvedLocale} />
-                        </a>
-                      </DropdownMenuItem>
-                    ))}
-                  </DropdownMenuContent>
-                </DropdownMenu>
-                <TooltipContent side="right">{resolvedMessages.sidebar.language}</TooltipContent>
               </Tooltip>
               <Tooltip>
                 <TooltipTrigger asChild>
@@ -386,38 +318,15 @@ export function PageFrame({
         </main>
 
         {footerMarkdownHtml
-          ? (
-              <footer className="col-start-2 border-t px-4 py-5 text-center text-xs leading-relaxed text-muted-foreground">
-                <div className="[overflow-wrap:anywhere] [&_a]:font-medium [&_a]:underline [&_a]:underline-offset-2 [&_a:hover]:text-foreground [&_code]:rounded [&_code]:bg-muted [&_code]:px-1 [&_code]:py-0.5 [&_code]:font-mono [&_code]:text-[0.9em] [&_strong]:font-semibold" dangerouslySetInnerHTML={{ __html: footerMarkdownHtml }} />
-              </footer>
+            ? (
+                <footer className="col-start-2 border-t px-4 py-5 text-center text-xs leading-relaxed text-muted-foreground">
+                  <div
+                      className="[overflow-wrap:anywhere] [&_a]:font-medium [&_a]:underline [&_a]:underline-offset-2 [&_a:hover]:text-foreground [&_code]:rounded [&_code]:bg-muted [&_code]:px-1 [&_code]:py-0.5 [&_code]:font-mono [&_code]:text-[0.9em] [&_strong]:font-semibold"
+                      dangerouslySetInnerHTML={{ __html: footerMarkdownHtml }}
+                  />
+                </footer>
             )
-          : (
-              <footer className="col-start-2 border-t px-4 py-5 text-center text-xs leading-relaxed text-muted-foreground">
-                <p>
-                  Built with love by
-                  {' '}
-                  <a href="https://toshiki.dev" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 transition-colors hover:text-foreground">Anda Toshiki</a>
-                  .
-                </p>
-                <p className="mt-1.5">
-                  <span className="font-mono text-[10px]">
-                    v
-                    {packageJson.version}
-                  </span>
-                  {' · Powered by '}
-                  <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 transition-colors hover:text-foreground">Next.js</a>
-                  {', '}
-                  <a href="https://react.dev" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 transition-colors hover:text-foreground">React</a>
-                  {', '}
-                  <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 transition-colors hover:text-foreground">Tailwind CSS</a>
-                  {', '}
-                  <a href="https://ui.shadcn.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 transition-colors hover:text-foreground">shadcn/ui</a>
-                  {' & '}
-                  <a href="https://www.radix-ui.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 transition-colors hover:text-foreground">Radix UI</a>
-                  .
-                </p>
-              </footer>
-            )}
+            : null}
       </div>
     </div>
   )

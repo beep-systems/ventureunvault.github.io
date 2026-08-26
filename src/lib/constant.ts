@@ -65,7 +65,7 @@ export const SITE_CONSTANTS: SiteConstantConfig = {
   staticProxy: '',
   cloudFlare: {
     // Enable Cloudflare image transform delivery for local mirrored images under /media/*.
-    transform: true,
+    transform: false,
     // Cloudflare image transform prefix used when cloudFlare.transform is enabled.
     transformPrefix: '/cdn-cgi/image/format=auto,quality=85/',
   },
