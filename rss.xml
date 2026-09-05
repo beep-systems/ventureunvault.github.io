@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>VentureUnvault</title>
+    <description>Never miss a startup you probably didn’t need to know about.Web archive: https://ventureunvault.beep.systems/Sources: VentureVault · Hacker News / Show HN · BetaList · MicroLaunch · Product Hunt · Peerlist</description>
+    <link>https://ventureunvault.beep.systems/</link>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1425</guid>
+        <link>https://ventureunvault.beep.systems/posts/1425</link>
+        <title>🛠️ Think Turing Complete, but you write the circuits in TypeScript (WIP)SummarySimten is a work-in-progress project where users write circuits in TypeScript, similar to a Turing complete system.Why it’s interestingIt allows building and exploring circuits using TypeScript.Source metrics: Points 2 · Comments 0HN discussion · ProjectSource: #HackerNews / Show HN</title>
+        <pubDate>Sat, 05 Sep 2026 18:35:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🛠️</b></i> <b>Think Turing Complete, but you write the circuits in TypeScript (WIP)</b><br><br><b>Summary</b><br>Simten is a work-in-progress project where users write circuits in TypeScript, similar to a Turing complete system.<br><br><b>Why it’s interesting</b><br>It allows building and exploring circuits using TypeScript.<br><br><b>Source metrics:</b> Points 2 · Comments 0<br><a href="https://news.ycombinator.com/item?id=49537143" target="_blank" rel="noopener noreferrer" title="HN discussion">HN discussion</a> · <a href="https://play.simten.dev/" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23HackerNews" title="#HackerNews">#HackerNews</a> / Show HN]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1424</guid>
+        <link>https://ventureunvault.beep.systems/posts/1424</link>
+        <title>🛠️ Amaze Kings – a browser logic puzzle with 1,400 hand-graded levelsSummaryAmaze Kings is a browser logic puzzle game featuring 1,400 hand-graded levels.Why it’s interestingIt offers a large collection of browser logic puzzles with hand-graded levels.Target userPuzzle game playersSource metrics: Points 2 · Comments 0HN discussion · ProjectSource: #HackerNews / Show HN</title>
+        <pubDate>Sat, 05 Sep 2026 17:35:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🛠️</b></i> <b>Amaze Kings – a browser logic puzzle with 1,400 hand-graded levels</b><br><br><b>Summary</b><br>Amaze Kings is a browser logic puzzle game featuring 1,400 hand-graded levels.<br><br><b>Why it’s interesting</b><br>It offers a large collection of browser logic puzzles with hand-graded levels.<br><br><b>Target user</b><br>Puzzle game players<br><br><b>Source metrics:</b> Points 2 · Comments 0<br><a href="https://news.ycombinator.com/item?id=49578046" target="_blank" rel="noopener noreferrer" title="HN discussion">HN discussion</a> · <a href="https://kings.amaze-apps.com/" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23HackerNews" title="#HackerNews">#HackerNews</a> / Show HN]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1423</guid>
+        <link>https://ventureunvault.beep.systems/posts/1423</link>
+        <title>🛠️ HyperCard to HTML ConverterSummaryThe HyperCard to HTML Converter turns HyperCard 2.x stacks into standalone HTML files that run directly in modern web browsers. It was built to recover and share early 1990s stacks previously trapped on old floppy disk images.Why it’s interestingIt allows 30-year-old legacy HyperCard stacks to run again in modern browsers and is open-source under the MIT license.Target userPeople with old HyperCard files looking to convert and run them in modern web browsers.Source metrics: Points 2 · Comments 0HN discussion · ProjectSource: #HackerNews / Show HN</title>
+        <pubDate>Sat, 05 Sep 2026 17:35:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🛠️</b></i> <b>HyperCard to HTML Converter</b><br><br><b>Summary</b><br>The HyperCard to HTML Converter turns HyperCard 2.x stacks into standalone HTML files that run directly in modern web browsers. It was built to recover and share early 1990s stacks previously trapped on old floppy disk images.<br><br><b>Why it’s interesting</b><br>It allows 30-year-old legacy HyperCard stacks to run again in modern browsers and is open-source under the MIT license.<br><br><b>Target user</b><br>People with old HyperCard files looking to convert and run them in modern web browsers.<br><br><b>Source metrics:</b> Points 2 · Comments 0<br><a href="https://news.ycombinator.com/item?id=49577943" target="_blank" rel="noopener noreferrer" title="HN discussion">HN discussion</a> · <a href="https://github.com/stachon/hc2html" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23HackerNews" title="#HackerNews">#HackerNews</a> / Show HN]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1422</guid>
+        <link>https://ventureunvault.beep.systems/posts/1422</link>
+        <title>🚀 WhoGoesSummaryWhoGoes is a tool that turns public LinkedIn posts into outreach-ready event attendee lists.Why it’s interestingIt simplifies lead generation and networking by automating the extraction of event attendees from public social media posts.BetaList source · ProjectSource: #BetaList</title>
+        <pubDate>Sat, 05 Sep 2026 16:50:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🚀</b></i> <b>WhoGoes</b><br><br><b>Summary</b><br>WhoGoes is a tool that turns public LinkedIn posts into outreach-ready event attendee lists.<br><br><b>Why it’s interesting</b><br>It simplifies lead generation and networking by automating the extraction of event attendees from public social media posts.<br><br><a href="https://betalist.com/startups/whogoes" target="_blank" rel="noopener noreferrer" title="BetaList source">BetaList source</a> · <a href="https://betalist.com/startups/whogoes/visit" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23BetaList" title="#BetaList">#BetaList</a>]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1421</guid>
+        <link>https://ventureunvault.beep.systems/posts/1421</link>
+        <title>🛠️ Getting to the top of Show HN is getting harderSummaryA Show HN discussion analysis explores the increasing difficulty of reaching the top of the Show HN leaderboard.Why it’s interestingIt analyzes the shifting competitiveness and mechanics of getting to the top of the Show HN leaderboard.Source metrics: Points 4 · Comments 1HN discussion · ProjectSource: #HackerNews / Show HN</title>
+        <pubDate>Sat, 05 Sep 2026 16:35:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🛠️</b></i> <b>Getting to the top of Show HN is getting harder</b><br><br><b>Summary</b><br>A Show HN discussion analysis explores the increasing difficulty of reaching the top of the Show HN leaderboard.<br><br><b>Why it’s interesting</b><br>It analyzes the shifting competitiveness and mechanics of getting to the top of the Show HN leaderboard.<br><br><b>Source metrics:</b> Points 4 · Comments 1<br><a href="https://news.ycombinator.com/item?id=49577670" target="_blank" rel="noopener noreferrer" title="HN discussion">HN discussion</a> · <a href="https://artifactbin.dev/@vivek/6bXsx3-vol-2-show-hn-hall-of-fames" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23HackerNews" title="#HackerNews">#HackerNews</a> / Show HN]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1420</guid>
+        <link>https://ventureunvault.beep.systems/posts/1420</link>
+        <title>🛠️ MobileCode – OpenCode with Built-In iOS and Android PreviewsSummaryMobileCode is an open source project named OpenCode featuring built-in iOS and Android previews.Why it’s interestingIt offers built-in iOS and Android previews directly within the OpenCode development environment.Source metrics: Points 4 · Comments 1HN discussion · ProjectSource: #HackerNews / Show HN</title>
+        <pubDate>Sat, 05 Sep 2026 16:35:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🛠️</b></i> <b>MobileCode – OpenCode with Built-In iOS and Android Previews</b><br><br><b>Summary</b><br>MobileCode is an open source project named OpenCode featuring built-in iOS and Android previews.<br><br><b>Why it’s interesting</b><br>It offers built-in iOS and Android previews directly within the OpenCode development environment.<br><br><b>Source metrics:</b> Points 4 · Comments 1<br><a href="https://news.ycombinator.com/item?id=49577645" target="_blank" rel="noopener noreferrer" title="HN discussion">HN discussion</a> · <a href="https://github.com/hsandhu/mobilecode" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23HackerNews" title="#HackerNews">#HackerNews</a> / Show HN]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1419</guid>
+        <link>https://ventureunvault.beep.systems/posts/1419</link>
+        <title>🚀 MCPVaultSummaryMCPVault is a platform designed to help users explore and trust MCP servers through grades, signals, and verification. It provides insights to evaluate server reliability and safety.Why it’s interestingIt focuses on establishing trust and transparency for MCP servers using a grading and verification system.BetaList source · ProjectSource: #BetaList</title>
+        <pubDate>Sat, 05 Sep 2026 15:50:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🚀</b></i> <b>MCPVault</b><br><br><b>Summary</b><br>MCPVault is a platform designed to help users explore and trust MCP servers through grades, signals, and verification. It provides insights to evaluate server reliability and safety.<br><br><b>Why it’s interesting</b><br>It focuses on establishing trust and transparency for MCP servers using a grading and verification system.<br><br><a href="https://betalist.com/startups/mcpvault" target="_blank" rel="noopener noreferrer" title="BetaList source">BetaList source</a> · <a href="https://betalist.com/startups/mcpvault/visit" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23BetaList" title="#BetaList">#BetaList</a>]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1418</guid>
+        <link>https://ventureunvault.beep.systems/posts/1418</link>
+        <title>🛠️ Minilith – A zero-dependency CMS stored inside a PNG fileSummaryMinilith is a zero-dependency database-free content management system where the entire state, including posts, pages, and settings, is compressed and stored inside the pixels of a PNG file using steganography. It relies on browser APIs to compress, secure, and render a micro blog directly from the image.Why it’s interestingIt uses steganography to store an entire CMS and its database directly inside the pixels of a PNG file with zero external dependencies.Source metrics: Points 5 · Comments 3HN discussion · ProjectSource: #HackerNews / Show HN</title>
+        <pubDate>Sat, 05 Sep 2026 14:35:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🛠️</b></i> <b>Minilith – A zero-dependency CMS stored inside a PNG file</b><br><br><b>Summary</b><br>Minilith is a zero-dependency database-free content management system where the entire state, including posts, pages, and settings, is compressed and stored inside the pixels of a PNG file using steganography. It relies on browser APIs to compress, secure, and render a micro blog directly from the image.<br><br><b>Why it’s interesting</b><br>It uses steganography to store an entire CMS and its database directly inside the pixels of a PNG file with zero external dependencies.<br><br><b>Source metrics:</b> Points 5 · Comments 3<br><a href="https://news.ycombinator.com/item?id=49575769" target="_blank" rel="noopener noreferrer" title="HN discussion">HN discussion</a> · <a href="https://blog.minilith.site/#posts/minilith-architecture" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23HackerNews" title="#HackerNews">#HackerNews</a> / Show HN]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1417</guid>
+        <link>https://ventureunvault.beep.systems/posts/1417</link>
+        <title>🚀 Agent MentorSummaryAgent Mentor generates tailored coding courses that your agent writes and you own.Why it’s interestingIt allows users to generate tailored coding courses authored by their own agents.BetaList source · ProjectSource: #BetaList</title>
+        <pubDate>Sat, 05 Sep 2026 13:50:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🚀</b></i> <b>Agent Mentor</b><br><br><b>Summary</b><br>Agent Mentor generates tailored coding courses that your agent writes and you own.<br><br><b>Why it’s interesting</b><br>It allows users to generate tailored coding courses authored by their own agents.<br><br><a href="https://betalist.com/startups/agent-mentor" target="_blank" rel="noopener noreferrer" title="BetaList source">BetaList source</a> · <a href="https://betalist.com/startups/agent-mentor/visit" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23BetaList" title="#BetaList">#BetaList</a>]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1416</guid>
+        <link>https://ventureunvault.beep.systems/posts/1416</link>
+        <title>🚀 TransmutifySummaryTransmutify is a tool designed to clean up messy onboarding spreadsheets using API-driven mapping and review processes.Why it’s interestingIt automates the tedious process of cleaning and mapping chaotic onboarding data.BetaList source · ProjectSource: #BetaList</title>
+        <pubDate>Sat, 05 Sep 2026 12:50:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🚀</b></i> <b>Transmutify</b><br><br><b>Summary</b><br>Transmutify is a tool designed to clean up messy onboarding spreadsheets using API-driven mapping and review processes.<br><br><b>Why it’s interesting</b><br>It automates the tedious process of cleaning and mapping chaotic onboarding data.<br><br><a href="https://betalist.com/startups/transmutify" target="_blank" rel="noopener noreferrer" title="BetaList source">BetaList source</a> · <a href="https://betalist.com/startups/transmutify/visit" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23BetaList" title="#BetaList">#BetaList</a>]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1415</guid>
+        <link>https://ventureunvault.beep.systems/posts/1415</link>
+        <title>🚀 PonytailSummaryPonytail is a software development tool designed to make writing new code the last resort.Why it’s interestingIt emphasizes minimizing new code creation, which can significantly alter traditional software development workflows and reduce maintenance overhead.Target userSoftware developers and engineersProduct Hunt source · ProjectSource: #ProductHunt</title>
+        <pubDate>Sat, 05 Sep 2026 11:52:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🚀</b></i> <b>Ponytail</b><br><br><b>Summary</b><br>Ponytail is a software development tool designed to make writing new code the last resort.<br><br><b>Why it’s interesting</b><br>It emphasizes minimizing new code creation, which can significantly alter traditional software development workflows and reduce maintenance overhead.<br><br><b>Target user</b><br>Software developers and engineers<br><br><a href="https://www.producthunt.com/products/ponytail" target="_blank" rel="noopener noreferrer" title="Product Hunt source">Product Hunt source</a> · <a href="https://www.producthunt.com/r/p/1241345?app_id=339" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23ProductHunt" title="#ProductHunt">#ProductHunt</a>]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1414</guid>
+        <link>https://ventureunvault.beep.systems/posts/1414</link>
+        <title>🚀 HyperprobeSummaryHyperprobe is a tool that lets AI agents debug production environments without requiring redeployments.Why it’s interestingIt enables AI agents to troubleshoot live production issues directly, saving development time and avoiding the need to redeploy code.Target userSoftware developers and AI engineersProduct Hunt source · ProjectSource: #ProductHunt</title>
+        <pubDate>Sat, 05 Sep 2026 10:52:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🚀</b></i> <b>Hyperprobe</b><br><br><b>Summary</b><br>Hyperprobe is a tool that lets AI agents debug production environments without requiring redeployments.<br><br><b>Why it’s interesting</b><br>It enables AI agents to troubleshoot live production issues directly, saving development time and avoiding the need to redeploy code.<br><br><b>Target user</b><br>Software developers and AI engineers<br><br><a href="https://www.producthunt.com/products/hyperprobe" target="_blank" rel="noopener noreferrer" title="Product Hunt source">Product Hunt source</a> · <a href="https://www.producthunt.com/r/p/1237032?app_id=339" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23ProductHunt" title="#ProductHunt">#ProductHunt</a>]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1413</guid>
+        <link>https://ventureunvault.beep.systems/posts/1413</link>
+        <title>🚀 CaredenceSummaryCaredence helps you run your daycare with unified check-in, billing, reports, and parent communications.Why it’s interestingIt unifies essential daycare management tasks into a single platform.Target userDaycare operatorsBetaList source · ProjectSource: #BetaList</title>
+        <pubDate>Sat, 05 Sep 2026 10:50:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🚀</b></i> <b>Caredence</b><br><br><b>Summary</b><br>Caredence helps you run your daycare with unified check-in, billing, reports, and parent communications.<br><br><b>Why it’s interesting</b><br>It unifies essential daycare management tasks into a single platform.<br><br><b>Target user</b><br>Daycare operators<br><br><a href="https://betalist.com/startups/caredence" target="_blank" rel="noopener noreferrer" title="BetaList source">BetaList source</a> · <a href="https://betalist.com/startups/caredence/visit" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23BetaList" title="#BetaList">#BetaList</a>]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1412</guid>
+        <link>https://ventureunvault.beep.systems/posts/1412</link>
+        <title>🚀 RetoldSummaryRetold is a product that turns family voices into hand-drawn story films.Why it’s interestingIt offers a unique way to preserve family memories by combining voice recordings with hand-drawn visual storytelling.Target userFamilies and individuals looking to preserve personal storiesProduct Hunt source · ProjectSource: #ProductHunt</title>
+        <pubDate>Sat, 05 Sep 2026 09:52:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🚀</b></i> <b>Retold</b><br><br><b>Summary</b><br>Retold is a product that turns family voices into hand-drawn story films.<br><br><b>Why it’s interesting</b><br>It offers a unique way to preserve family memories by combining voice recordings with hand-drawn visual storytelling.<br><br><b>Target user</b><br>Families and individuals looking to preserve personal stories<br><br><a href="https://www.producthunt.com/products/retold" target="_blank" rel="noopener noreferrer" title="Product Hunt source">Product Hunt source</a> · <a href="https://www.producthunt.com/r/p/1232929?app_id=339" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23ProductHunt" title="#ProductHunt">#ProductHunt</a>]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1411</guid>
+        <link>https://ventureunvault.beep.systems/posts/1411</link>
+        <title>🚀 News EdgeSummaryNews Edge provides early lineup and injury alerts sourced from local sports media worldwide.Why it’s interestingIt delivers timely sports updates directly from local media sources globally.Target userSports fans and bettorsBetaList source · ProjectSource: #BetaList</title>
+        <pubDate>Sat, 05 Sep 2026 09:50:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🚀</b></i> <b>News Edge</b><br><br><b>Summary</b><br>News Edge provides early lineup and injury alerts sourced from local sports media worldwide.<br><br><b>Why it’s interesting</b><br>It delivers timely sports updates directly from local media sources globally.<br><br><b>Target user</b><br>Sports fans and bettors<br><br><a href="https://betalist.com/startups/news-edge" target="_blank" rel="noopener noreferrer" title="BetaList source">BetaList source</a> · <a href="https://betalist.com/startups/news-edge/visit" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23BetaList" title="#BetaList">#BetaList</a>]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1410</guid>
+        <link>https://ventureunvault.beep.systems/posts/1410</link>
+        <title>🛠️ TenantLayer – Multi-Tenancy for Spring Boot and PostgresSummaryTenantLayer provides multi-tenancy capabilities for Spring Boot and Postgres applications.Why it’s interestingIt offers built-in multi-tenancy tools specifically for the Spring Boot and Postgres stack.Target userDevelopers building Spring Boot and Postgres applicationsSource metrics: Points 2 · Comments 0HN discussion · ProjectSource: #HackerNews / Show HN</title>
+        <pubDate>Sat, 05 Sep 2026 09:35:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🛠️</b></i> <b>TenantLayer – Multi-Tenancy for Spring Boot and Postgres</b><br><br><b>Summary</b><br>TenantLayer provides multi-tenancy capabilities for Spring Boot and Postgres applications.<br><br><b>Why it’s interesting</b><br>It offers built-in multi-tenancy tools specifically for the Spring Boot and Postgres stack.<br><br><b>Target user</b><br>Developers building Spring Boot and Postgres applications<br><br><b>Source metrics:</b> Points 2 · Comments 0<br><a href="https://news.ycombinator.com/item?id=49574602" target="_blank" rel="noopener noreferrer" title="HN discussion">HN discussion</a> · <a href="https://tenantlayer.io/" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23HackerNews" title="#HackerNews">#HackerNews</a> / Show HN]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1409</guid>
+        <link>https://ventureunvault.beep.systems/posts/1409</link>
+        <title>🚀 PostBoxSummaryPostBox is a Mac application that allows users to stage and post their designs directly from their computer.Why it’s interestingIt streamlines the workflow for designers by combining the staging and posting process into a single desktop tool.Target userMac users who are designers and need to post their work.Product Hunt source · ProjectSource: #ProductHunt</title>
+        <pubDate>Sat, 05 Sep 2026 08:52:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🚀</b></i> <b>PostBox</b><br><br><b>Summary</b><br>PostBox is a Mac application that allows users to stage and post their designs directly from their computer.<br><br><b>Why it’s interesting</b><br>It streamlines the workflow for designers by combining the staging and posting process into a single desktop tool.<br><br><b>Target user</b><br>Mac users who are designers and need to post their work.<br><br><a href="https://www.producthunt.com/products/postbox" target="_blank" rel="noopener noreferrer" title="Product Hunt source">Product Hunt source</a> · <a href="https://www.producthunt.com/r/p/1234474?app_id=339" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23ProductHunt" title="#ProductHunt">#ProductHunt</a>]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1408</guid>
+        <link>https://ventureunvault.beep.systems/posts/1408</link>
+        <title>🚀 dif.shSummarydif.sh provides markdown feature flags that coding agents can install for you.Why it’s interestingIt integrates markdown-based feature flags specifically designed for automated coding agents.Target userSoftware developers and users of coding agentsProduct Hunt source · ProjectSource: #ProductHunt</title>
+        <pubDate>Sat, 05 Sep 2026 07:52:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🚀</b></i> <a href="http://dif.sh/" target="_blank" rel="noopener noreferrer" title="dif.sh"><b>dif.sh</b></a><br><br><b>Summary</b><br><a href="http://dif.sh/" target="_blank" rel="noopener noreferrer" title="dif.sh">dif.sh</a> provides markdown feature flags that coding agents can install for you.<br><br><b>Why it’s interesting</b><br>It integrates markdown-based feature flags specifically designed for automated coding agents.<br><br><b>Target user</b><br>Software developers and users of coding agents<br><br><a href="https://www.producthunt.com/products/dif-sh" target="_blank" rel="noopener noreferrer" title="Product Hunt source">Product Hunt source</a> · <a href="https://www.producthunt.com/r/p/1217440?app_id=339" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23ProductHunt" title="#ProductHunt">#ProductHunt</a>]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1407</guid>
+        <link>https://ventureunvault.beep.systems/posts/1407</link>
+        <title>🚀 SiliFormSummarySiliForm enables the creation of AI-driven conversational forms designed to boost completion rates. It uses artificial intelligence to make form filling more interactive and engaging for users.Why it’s interestingIt transforms traditional static forms into interactive AI-driven conversations to improve completion rates.BetaList source · ProjectSource: #BetaList</title>
+        <pubDate>Sat, 05 Sep 2026 07:50:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🚀</b></i> <b>SiliForm</b><br><br><b>Summary</b><br>SiliForm enables the creation of AI-driven conversational forms designed to boost completion rates. It uses artificial intelligence to make form filling more interactive and engaging for users.<br><br><b>Why it’s interesting</b><br>It transforms traditional static forms into interactive AI-driven conversations to improve completion rates.<br><br><a href="https://betalist.com/startups/siliform" target="_blank" rel="noopener noreferrer" title="BetaList source">BetaList source</a> · <a href="https://betalist.com/startups/siliform/visit" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23BetaList" title="#BetaList">#BetaList</a>]]></description>
+      </item>
+      <item>
+        <guid>https://ventureunvault.beep.systems/posts/1406</guid>
+        <link>https://ventureunvault.beep.systems/posts/1406</link>
+        <title>🛠️ Less-sheet – A minimal but fast CSV viewerSummaryLess-sheet is a minimal and fast CSV viewer built as a quick way to open CSV files of almost any size. It supports gzipped CSVs and can load files directly over HTTP or HTTPS.Why it’s interestingIt allows users to quickly open and view large or gzipped CSV files directly over HTTP or HTTPS.Source metrics: Points 2 · Comments 0HN discussion · ProjectSource: #HackerNews / Show HN</title>
+        <pubDate>Sat, 05 Sep 2026 07:35:00 GMT</pubDate>
+        <description><![CDATA[<i class="emoji"><b>🛠️</b></i> <b>Less-sheet – A minimal but fast CSV viewer</b><br><br><b>Summary</b><br>Less-sheet is a minimal and fast CSV viewer built as a quick way to open CSV files of almost any size. It supports gzipped CSVs and can load files directly over HTTP or HTTPS.<br><br><b>Why it’s interesting</b><br>It allows users to quickly open and view large or gzipped CSV files directly over HTTP or HTTPS.<br><br><b>Source metrics:</b> Points 2 · Comments 0<br><a href="https://news.ycombinator.com/item?id=49565406" target="_blank" rel="noopener noreferrer" title="HN discussion">HN discussion</a> · <a href="https://te-x.github.io/less-sheet/" target="_blank" rel="noopener noreferrer" title="Project">Project</a><br><b>Source:</b> <a href="/search?q=%23HackerNews" title="#HackerNews">#HackerNews</a> / Show HN]]></description>
+      </item>
+  </channel>
+</rss>
