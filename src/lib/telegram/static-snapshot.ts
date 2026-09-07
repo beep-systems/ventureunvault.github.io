@@ -49,6 +49,31 @@ interface SnapshotFetchTracker {
   finish: () => void
 }
 
+const CHANNEL_FETCH_ATTEMPTS = 3
+const CHANNEL_FETCH_RETRY_DELAYS_MS = [1000, 3000]
+
+async function fetchChannelPage(before: string) {
+  let lastError: unknown
+
+  for (let attempt = 0; attempt < CHANNEL_FETCH_ATTEMPTS; attempt += 1) {
+    try {
+      return await getChannelInfo(before ? { before } : {}) as ChannelInfo
+    }
+    catch (error) {
+      lastError = error
+      if (attempt === CHANNEL_FETCH_ATTEMPTS - 1) {
+        break
+      }
+
+      const delay = CHANNEL_FETCH_RETRY_DELAYS_MS[attempt] || CHANNEL_FETCH_RETRY_DELAYS_MS.at(-1) || 1000
+      console.warn(`[telecast] channel fetch failed; retrying in ${delay}ms (attempt ${attempt + 1}/${CHANNEL_FETCH_ATTEMPTS})`)
+      await new Promise(resolve => setTimeout(resolve, delay))
+    }
+  }
+
+  throw lastError instanceof Error ? lastError : new Error(String(lastError))
+}
+
 function createSnapshotFetchTracker(host: string, channel: string): SnapshotFetchTracker {
   let requestCount = 0
   const isTty = Boolean(process.stdout.isTTY)
@@ -89,7 +114,7 @@ export async function buildRemoteStaticSnapshot(): Promise<StaticSnapshot> {
   try {
     for (let pageIndex = 0; pageIndex < maxPages; pageIndex += 1) {
       fetchTracker.tick(cursor)
-      const channel = await getChannelInfo(cursor ? { before: cursor } : {}) as ChannelInfo
+      const channel = await fetchChannelPage(cursor)
       if (!channel.posts.length) {
         break
       }
@@ -116,7 +141,7 @@ export async function buildRemoteStaticSnapshot(): Promise<StaticSnapshot> {
     fetchTracker.finish()
   }
 
-  const root = pages[0]?.channel || await getChannelInfo() as ChannelInfo
+  const root = pages[0]?.channel || await fetchChannelPage('')
 
   const beforeCursors = uniqueStrings(
     pages

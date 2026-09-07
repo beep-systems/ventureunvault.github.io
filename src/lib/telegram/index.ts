@@ -655,13 +655,7 @@ export async function getChannelInfo(options: ChannelQuery = {}): Promise<Channe
       }
     }
 
-    return {
-      posts: [],
-      title: cfg.channel,
-      description: '',
-      descriptionHTML: '',
-      avatar: '',
-    }
+    throw error
   }
 
   const $ = cheerio.load(html, {}, false)
