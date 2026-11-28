@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+Host: https://ventureunvault.beep.systems
+Sitemap: https://ventureunvault.beep.systems/sitemap.xml
